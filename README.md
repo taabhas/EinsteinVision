@@ -25,10 +25,10 @@ The output videos for driving scenes are given in Videos folder.
 
 The outputs for a few indivisual images are given below:
 <p align="center">
-  <img src="Output Images\scene4frame261\frame261.png" alt="Image 1 Description" width="200"/>
-  <img src="Output Images\scene4frame261\yolo261.png" alt="Image 2 Description" width="200"/>
-    <img src="Output Images\scene4frame261\depthmap261.png" alt="Image 2 Description" width="200"/>
-  <img src="Output Images\scene4frame261\blender261_view2.png" alt="Image 3 Description" width="200"/>
+  <img src="Output Images\scene4frame261\frame261.jpg" alt="Image 1 Description" height="300"/>
+  <img src="Output Images\scene4frame261\yolo261.jpg" alt="Image 2 Description" height="300"/>
+    <img src="Output Images\scene4frame261\depthmap261.png" alt="Image 2 Description" height="300"/>
+  <img src="Output Images\scene4frame261\blender261_view2.png" alt="Image 3 Description" height="300"/>
 </p>
 
 ### References
