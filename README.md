@@ -9,7 +9,7 @@ Reference: https://medium.com/computer-car/udacity-self-driving-car-nanodegree-p
 
 2. Object Detection and Classification	
 Road objects in the videos such as vehicles, Pedestrians, Traffic lights, Road signs, etc. were detected using YOLOv5. It generates 2D bounding
-boxes around the detected objects. The coordinates of the bounding boxes were tracked using this model and stored in a ’.csv’ file.
+boxes around the detected objects. The coordinates of the bounding boxes were tracked using this model and stored in a â€™.csvâ€™ file.
 Reference: https://colab.research.google.com/github/changsin/DLTrafficCounter/blob/main/notebooks/traffic_counter_yolov5.ipynb#scrollTo=2CY-FOgFW5Gr
 
 3. Depth Estimation
@@ -24,63 +24,11 @@ Reference: https://drive.google.com/drive/folders/1Shr6cQDLWiov53f1tXZArhBBfoPcz
 The output videos for driving scenes are given in Videos folder. 
 
 The outputs for a few indivisual images are given below:
-
 <p align="center">
-  <figure>
-    <img src="Output Images/scene5frame351/frame351.png" alt="Front View" width="200"/>
-    <figcaption>Fig.1 - Input Image</figcaption>
-  </figure>
-  <figure>
-    <img src="Output Images/scene5frame351/yolo351.png" alt="Object Detection" width="200"/>
-    <figcaption>Fig.2 - Object Detection using YOLO</figcaption>
-  </figure>
-  <figure>
-    <img src="Output Images/scene5frame351/depthmap351.png" alt="Depth Map" width="200"/>
-    <figcaption>Fig.3 - Depth Map Generation</figcaption>
-  </figure>
-  <figure>
-    <img src="Output Images/scene5frame351/blender351_view2.png" alt="3D Rendered View" width="200"/>
-    <figcaption>Fig.4 - 3D Rendered View with Blender</figcaption>
-  </figure>
-</p>
-
-<p align="center">
-  <figure>
-    <img src="Output Images/scene5frame1774/frame1774.png" alt="Front View" width="200"/>
-    <figcaption>Fig.1 - Input Image</figcaption>
-  </figure>
-  <figure>
-    <img src="Output Images/scene5frame1774/yolo1774.png" alt="Object Detection" width="200"/>
-    <figcaption>Fig.2 - Object Detection using YOLO</figcaption>
-  </figure>
-  <figure>
-    <img src="Output Images/scene5frame1774/depthmap1774.png" alt="Depth Map" width="200"/>
-    <figcaption>Fig.3 - Depth Map Generation</figcaption>
-  </figure>
-  <figure>
-    <img src="Output Images/scene5frame1774/blender1774_view2.png" alt="3D Rendered View" width="200"/>
-    <figcaption>Fig.4 - 3D Rendered View with Blender</figcaption>
-  </figure>
-</p>
-
-
-<p align="center">
-  <figure>
-    <img src="Output Images/scene4frame261/frame261.png" alt="Front View" width="200"/>
-    <figcaption>Fig.1 - Input Image</figcaption>
-  </figure>
-  <figure>
-    <img src="Output Images/scene4frame261/yolo261.png" alt="Object Detection" width="200"/>
-    <figcaption>Fig.2 - Object Detection using YOLO</figcaption>
-  </figure>
-  <figure>
-    <img src="Output Images/scene4frame261/depthmap261.png" alt="Depth Map" width="200"/>
-    <figcaption>Fig.3 - Depth Map Generation</figcaption>
-  </figure>
-  <figure>
-    <img src="Output Images/scene4frame261/blender261_view2.png" alt="3D Rendered View" width="200"/>
-    <figcaption>Fig.4 - 3D Rendered View with Blender</figcaption>
-  </figure>
+  <img src="Output Images\scene4frame261\frame261.png" alt="Image 1 Description" width="200"/>
+  <img src="Output Images\scene4frame261\yolo261.png" alt="Image 2 Description" width="200"/>
+    <img src="Output Images\scene4frame261\depthmap261.png" alt="Image 2 Description" width="200"/>
+  <img src="Output Images\scene4frame261\blender261_view2.png" alt="Image 3 Description" width="200"/>
 </p>
 
 ### References
