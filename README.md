@@ -25,10 +25,24 @@ The output videos for driving scenes are given in Videos folder.
 
 The outputs for a few indivisual images are given below:
 <p align="center">
-  <img src="Output Images\scene4frame261\frame261.jpg" alt="Image 1 Description" height="300"/>
-  <img src="Output Images\scene4frame261\yolo261.jpg" alt="Image 2 Description" height="300"/>
-    <img src="Output Images\scene4frame261\depthmap261.png" alt="Image 2 Description" height="300"/>
-  <img src="Output Images\scene4frame261\blender261_view2.png" alt="Image 3 Description" height="300"/>
+  <img src="Output Images\scene5frame1774\frame261.jpg" alt="Image 1 Description" height="150"/>
+  <img src="Output Images\scene4frame261\yolo261.jpg" alt="Image 2 Description" height="150"/>
+    <img src="Output Images\scene4frame261\depthmap261.png" alt="Image 2 Description" height="150"/>
+  <img src="Output Images\scene4frame261\blender261_view2.png" alt="Image 3 Description" height="150"/>
+</p>
+
+<p align="center">
+  <img src="Output Images\scene5frame351\frame351.jpg" alt="Image 1 Description" height="150"/>
+  <img src="Output Images\scene5frame351\yolo351.jpg" alt="Image 2 Description" height="150"/>
+    <img src="Output Images\scene5frame351\depthmap351.png" alt="Image 2 Description" height="150"/>
+  <img src="Output Images\scene5frame351\blender351_view2.png" alt="Image 3 Description" height="150"/>
+</p>
+
+<p align="center">
+  <img src="Output Images\scene5frame1774\frame1774.jpg" alt="Image 1 Description" height="150"/>
+  <img src="Output Images\scene5frame1774\yolo1774.jpg" alt="Image 2 Description" height="150"/>
+    <img src="Output Images\scene5frame1774\depthmap1774.png" alt="Image 2 Description" height="150"/>
+  <img src="Output Images\scene5frame1774\blender1774_view2.png" alt="Image 3 Description" height="150"/>
 </p>
 
 ### References
