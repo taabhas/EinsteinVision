@@ -3,41 +3,51 @@ This project aims to reimagine and enhance the visualization experience utilizin
 For a comprehensive understanding of the methodologies and implementation strategies employed, please refer to the report provided.
 
 ### Approaches
-1. Lane Detection
+1. Lane Detection:
+   
 Lane segmentation and drivable region segmentation was done using classical approach of using Hough Lines from cv2. 
+
 Reference: https://medium.com/computer-car/udacity-self-driving-car-nanodegree-project-1-finding-lane-lines-9cd6a846c58c
 
-2. Object Detection and Classification	
-Road objects in the videos such as vehicles, Pedestrians, Traffic lights, Road signs, etc. were detected using YOLOv5. It generates 2D bounding
-boxes around the detected objects. The coordinates of the bounding boxes were tracked using this model and stored in a ’.csv’ file.
+2. Object Detection and Classification:
+   
+Road objects in the videos such as vehicles, Pedestrians, Traffic lights, Road signs, etc. were detected using YOLOv5. It generates 2D bounding boxes around the detected objects. The coordinates of the bounding boxes were tracked using this model and stored in a ’.csv’ file.
+
 Reference: https://colab.research.google.com/github/changsin/DLTrafficCounter/blob/main/notebooks/traffic_counter_yolov5.ipynb#scrollTo=2CY-FOgFW5Gr
 
-3. Depth Estimation
+3. Depth Estimation:
+   
 For a 3D scene construction, the depth of each object was tracked using transformer based MiDAS model. It predicts the distance of each pixel in an image from the camera that captured it.
+
 Reference: https://pytorch.org/hub/intelisl_midas_v2/
 
-4. Scene Building
-For the final output visualization of the scenes, Bleder software was used. Assets for objects such as Vehichles,  Traffic signal, Stop Sign, Traffic Cone, Traffic Pole, Speed Sign and Pedestrian were spawned at each scene using the results from object detection and depth estimation.
+4. Scene Building:
+   
+For the final output visualization of the scenes, Bleder software was used. Assets for objects such as Vehichles,  Traffic signal, Stop Sign, Traffic Cone, Traffic Pole, Speed Sign and Pedestrian were spawned at each scene using the results from object detection and depth estimation. 
+
 Reference: https://drive.google.com/drive/folders/1Shr6cQDLWiov53f1tXZArhBBfoPczNTp
 
 ### Results
 The output videos for driving scenes are given in Videos folder. 
 
 The outputs for a few indivisual images are given below:
+#### Scene 4 Frame 261
 <p align="center">
-  <img src="Output Images\scene5frame1774\frame261.jpg" alt="Image 1 Description" height="150"/>
+  <img src="Output Images\scene4frame261\frame261.jpg" alt="Image 1 Description" height="150"/>
   <img src="Output Images\scene4frame261\yolo261.jpg" alt="Image 2 Description" height="150"/>
     <img src="Output Images\scene4frame261\depthmap261.png" alt="Image 2 Description" height="150"/>
   <img src="Output Images\scene4frame261\blender261_view2.png" alt="Image 3 Description" height="150"/>
 </p>
 
+#### Scene 5 Frame 351
 <p align="center">
   <img src="Output Images\scene5frame351\frame351.jpg" alt="Image 1 Description" height="150"/>
   <img src="Output Images\scene5frame351\yolo351.jpg" alt="Image 2 Description" height="150"/>
     <img src="Output Images\scene5frame351\depthmap351.png" alt="Image 2 Description" height="150"/>
-  <img src="Output Images\scene5frame351\blender351_view2.png" alt="Image 3 Description" height="150"/>
+  <img src="Output Images\scene5frame351\blender351.png" alt="Image 3 Description" height="150"/>
 </p>
 
+#### Scene 5 Frame 1774
 <p align="center">
   <img src="Output Images\scene5frame1774\frame1774.jpg" alt="Image 1 Description" height="150"/>
   <img src="Output Images\scene5frame1774\yolo1774.jpg" alt="Image 2 Description" height="150"/>
